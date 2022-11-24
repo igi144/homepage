@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.important {
+    color: #339976;
+}
+
+.header {
+    text-align: center;
+    color: crimson;
+    font-size: 40px;
+    margin: 50px;
+    border: 10px solid black
+}
+
+.containter {
+    max-width: 1000px;
+    padding: 2px;
+    margin: auto;
+
+}
+
+.body {
+    margin: auto;
+    font-family: "Mukta", sans-serif;
+    background-color: rgb(255, 255, 255);
+    max-width: 1000px; 
+}
+
+.dark {
+    background-color: #ffeb3bc2;
+    
+}
+
+.button__background {
+    margin: 38px 435px;
+    font-size: 88%;
+}
+
+.button__logo {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px
+}
+
+.history {
+    padding: 2px;
+}

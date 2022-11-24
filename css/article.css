@@ -1,0 +1,147 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.important {
+    color: #339976;
+}
+
+.header {
+    text-align: center;
+    color: crimson;
+    font-size: 40px;
+    margin: 50px;
+    border: 10px solid black
+}
+
+.containter {
+    max-width: 1000px;
+    padding: 2px;
+    margin: auto;
+
+}
+
+.body {
+    margin: auto;
+    font-family: "Mukta", sans-serif;
+    background-color: rgb(255, 255, 255);
+    max-width: 1000px; 
+}
+
+.dark {
+    background-color: #ffeb3bc2;
+    
+}
+
+.button__background {
+    margin: 38px 435px;
+    font-size: 88%;
+}
+
+.button__logo {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px
+}
+
+.history {
+    padding: 2px;
+}
+
+article {
+    margin: 30px;
+}
+
+.article__header {
+    padding: 10px;
+    color: #d13030;
+    text-align: center;
+    font-size: large;
+}
+
+.article__paragraph {
+    color: #140303;
+    font-style: italic;
+    margin: 0px 10px;
+}
+
+.article__paragraph--highlighted {
+    color: #090000eb;
+    text-align: center;
+}
+
+
+.navigation {
+    list-style-type: none;
+    background-color: black;
+    padding: 5px;
+}
+
+.navigation__item {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.table__caption {
+    font-size: large;
+    margin: 10px;
+    color: #3114ed;
+    padding-top: 50px
+    
+}
+
+.table {
+    margin:  0, 100px;
+    /* padding: 500px; */
+    border-collapse: collapse;
+    width: 500px;
+    margin: auto;
+    width: 500px;
+}
+
+
+.table__cell {
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+.table__header {
+    background-color: black;
+    color: white;
+
+}
+
+.table__row {
+    background-color: #ffeb3b26
+}
+
+.table__link {
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    margin: 50px;
+    font-size: 25px;
+    border-bottom: solid black;
+    border-top: solid black;
+    background-color: black;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white;
+
+}
