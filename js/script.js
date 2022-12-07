@@ -1,41 +1,21 @@
-let button__logo = document.querySelector(".button__logo");
-let header = document.querySelector(".header")
-button__logo.addEventListener("click", () => {
+{
+    const button__logo = document.querySelector(".button__logo");
+    const header = document.querySelector(".header")
+    const button = document.querySelector(".button__background");
+    const body = document.querySelector(".body");
+    const themeName = document.querySelector(".themeName")
 
-    header.remove();
-});
+    button__logo.addEventListener("click", () => {
+        header.remove();
+    });
 
-let button = document.querySelector(".button__background");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName")
+    const toggleBackgroundColor = () => {
 
-button.addEventListener("click", () => {
+        body.classList.toggle("dark");
 
-    body.classList.toggle("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "kolorowy";
+    }
 
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "kolorowy";
-    
-
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    button.addEventListener("click", toggleBackgroundColor);
+}
 
